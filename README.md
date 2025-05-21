@@ -21,3 +21,5 @@ ExDFinder is a plugin for UCSF ChimeraX designed to highlight regions within a t
     devel install "/path/to/ExDFinder-for-ChimeraX"
     ```
 4.  Restart ChimeraX if prompted.
+
+![image](https://github.com/user-attachments/assets/19ca7c8d-42f7-49b1-8780-297364e71b11)
