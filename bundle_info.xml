@@ -1,0 +1,36 @@
+<BundleInfo name="ExDFinder"
+    version="1.0"
+    package="exdfinder"
+    minSessionVersion="1" maxSessionVersion="1">
+
+  <Author>Your Name</Author>
+  <Email>your.email@example.com</Email>
+  <URL>http://example.com/exdfinder</URL>
+  <Description>Highlights residues not specified in a CSV file, based on specific criteria.</Description>
+  <Synopsis>Highlights residues in a target chain based on CSV input (Matched >= 1, Residue Index != -1).</Synopsis>
+
+  <Categories>
+    <Category name="Structure Analysis"/>
+  </Categories>
+
+  <Dependencies>
+    <Dependency name="ChimeraX-Core" version="~=1.0"/>
+  </Dependencies>
+
+  <Classifiers>
+    <PythonClassifier>Development Status :: 3 - Alpha</PythonClassifier>
+    <PythonClassifier>License :: OSI Approved :: MIT License</PythonClassifier>
+    <ChimeraXClassifier>ChimeraX :: Tool :: ExDFinder :: Structure Analysis :: Highlights residues based on CSV input</ChimeraXClassifier>
+  </Classifiers>
+
+  <menu>Tools/Structure Analysis/ExDFinder</menu>
+  <icon>atom_add_icon.png</icon>
+  <apiVersion>1</apiVersion>
+  <cite>Your Citation</cite>
+  <changelog>
+    Version 1.0: Initial release.
+  </changelog>
+  <debug>false</debug>
+  <unloadable>true</unloadable>
+
+</BundleInfo>
